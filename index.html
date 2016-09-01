@@ -4,57 +4,76 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel='stylesheet' href='index.css' type='text/css'>
+        <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+        <script src='index.js'></script>
     </head>
     <body>
-        <div id='navBar'>
-            <a>Home</a>
-            <a>About</a>
-            <a>Projects</a>
-            <a>Contact</a>
+        <div class='container'>
+            <nav id='navBar' class='navbar navbar-default navbar-fixed-top'>
+                <div class='container-fluid'>
+                    <ul class='nav navbar-nav'>
+                        <li><a href='#home' class='jump'>Home</a></li>
+                        <li><a href='#about' class='jump'>About</a></li>
+                        <li><a href='#projects' class='jump'>Projects</a></li>
+                        <li><a href='#contact' class='jump'>Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id='home'>
+                <div class='panel'>
+                    <h1>Isaias Pomales</h1>
+                    <h2>Front End Web Development Portfolio</h2>
+                    <ul class='nav nav-pills'>
+                        <li><a href='assets/Impomales.pdf'>Resume</a></li>
+                        <li><a href='https://github.com/impomales'>Github</a></li>
+                        <li><a href='https://linkedin.com/in/impomales'>Linkedin</a></li>
+                    </ul>
+                    
+                    
+                    
+                </div>
+            </div>
+            <div id='projects'>
+                <table>
+                    <tr>
+                        <td>
+                            <a href='https://bug-tracker-impomales.herokuapp.com/'>
+                                <!-- images are 1000x500 -->
+                                <img src='assets/images/BugTracker.jpg' alt='preview'>
+                               <h3>Bug Tracker</h3>
+                               <!-- on hover show description -->
+                               <p>description</p>
+                            </a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div id='about'>
+                <img src='assets/images/imp.jpg' alt='profile image'>
+                <p>I am a Software Developer...</p>
+            </div>
+            <div id='contact'>
+                <p>Contact me via email: <a href="mailto: impomales@gmail.com">impomales@gmail.com</a></p>
+                <a href='https://github.com/impomales'>Github</a>
+                <a href='https://linkedin.com/in/impomales'>Linkedin</a>
+            </div>
         </div>
-        <div id='home'>
-            <h1>Isaias Pomales</h1>
-            <h1>Front End Web Development Portfolio</h1>
-            <a href='assets/Impomales.pdf'>Resume</a>
-            <a href='https://github.com/impomales'>Github</a>
-            <a href='https://linkedin.com/in/impomales'>Linkedin</a>
-        </div>
-        <div id='projects'>
-            <table>
-                <tr>
-                    <td>
-                        <a href='https://bug-tracker-impomales.herokuapp.com/'>
-                            <!-- images are 1000x500 -->
-                            <img src='assets/images/BugTracker.jpg' alt='preview'>
-                           <h3>Bug Tracker</h3>
-                           <!-- on hover show description -->
-                           <p>description</p>
-                        </a>
-                    </td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-        <div id='about'>
-            <img src='assets/images/imp.jpg' alt='profile image'>
-            <p>I am a Software Developer...</p>
-        </div>
-        <div id='contact'>
-            <p>Contact me via email: <a href="mailto: impomales@gmail.com">impomales@gmail.com</a></p>
-            <a href='https://github.com/impomales'>Github</a>
-            <a href='https://linkedin.com/in/impomales'>Linkedin</a>
-        </div>
-        <div id='footer'>
-            <a>Home</a>
-            <a>About</a>
-            <a>Projects</a>
-            <a>Contact</a>
-        </div>
+        <nav id='footer' class='navbar navbar-default'>
+            <div class='container-fluid'>
+                <ul class='nav navbar-nav'>
+                    <li><a href='#home' class='jump'>Home</a></li>
+                    <li><a href='#about' class='jump'>About</a></li>
+                    <li><a href='#projects' class='jump'>Projects</a></li>
+                    <li><a href='#contact' class='jump'>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </body>
 </html>

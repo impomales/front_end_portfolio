@@ -17,7 +17,8 @@ table img {
   background-color: #ddf;
   box-shadow: 0px 1px 10px black; }
   #navBar li, #footer li {
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: "Verdana"; }
 
 #logo {
   height: 100%; }
@@ -27,3 +28,9 @@ table img {
 
 #home, #about, #project, #contact {
   height: 800px; }
+
+#home {
+  background-image: url("../images/sky.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }

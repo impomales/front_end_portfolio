@@ -4,5 +4,8 @@ body {
 table img {
   width: 100%; }
 
+#logo {
+  height: 100%; }
+
 #profileImg {
   border-radius: 50%; }

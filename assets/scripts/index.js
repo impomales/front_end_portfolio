@@ -9,8 +9,8 @@ $(document).ready(function() {
     });
     
     $('td').hover(function() {
-        $('.description', this).show();
+        $('.description', this).show(200);
     }, function() {
-        $('.description', this).hide();
+        $('.description', this).hide(500);
     });
 });

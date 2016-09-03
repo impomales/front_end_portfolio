@@ -7,7 +7,7 @@ table img {
 
 .panel {
   text-align: center;
-  box-shadow: 0px 1px 20px #aaa; }
+  box-shadow: 0px 1px 20px #ddd; }
 
 .button {
   width: 20%;
@@ -44,16 +44,39 @@ table img {
   width: 15%; }
 
 #profileImg {
-  border-radius: 50%; }
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0px 3px 5px #aaa;
+  width: 25%;
+  margin-bottom: 50px;
+  display: inline;
+  float: left; }
 
-#home, #about, #project, #contact {
-  height: 800px; }
+#home, #about, #projects {
+  min-height: 800px; }
 
 #home {
   background-image: url("../images/sky.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover; }
+
+#about h1 {
+  text-align: center;
+  margin-bottom: 50px; }
+#about p {
+  font-family: serif;
+  font-size: 20px;
+  text-align: center;
+  display: inline;
+  float: right;
+  width: 50%; }
+#about h2 {
+  clear: right;
+  padding-top: 50px; }
+
+#skillTable {
+  text-align: center; }
 
 #form {
   width: 50%;

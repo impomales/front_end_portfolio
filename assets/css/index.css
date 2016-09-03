@@ -75,31 +75,30 @@ table img {
   clear: right;
   padding-top: 50px; }
 
-#projects {
+#projects a {
+  font-family: serif;
+  text-decoration: none;
+  color: #555;
   text-align: center; }
-  #projects a {
-    font-family: serif;
-    text-decoration: none;
-    color: #555; }
-  #projects .box {
-    position: relative;
-    width: 100%;
-    height: auto; }
-  #projects .description {
-    height: 500px;
-    background-color: black;
-    border: 2px solid white;
-    color: white;
-    opacity: 0.8;
-    width: 100%;
-    height: 85%;
-    top: 0px;
-    z-index: 1;
-    position: absolute;
-    text-align: center; }
-  #projects p {
-    position: absolute;
-    top: 40%; }
+#projects .box {
+  position: relative;
+  width: 100%;
+  height: auto; }
+#projects .description {
+  height: 500px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  opacity: 0.8;
+  width: 100%;
+  height: 85%;
+  top: 0px;
+  z-index: 1;
+  position: absolute;
+  text-align: center; }
+#projects p {
+  position: absolute;
+  top: 40%; }
 
 #skillTable {
   text-align: center; }

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('.description').hide();
     $('.jump').click(function(e) {
         e.preventDefault();
 
@@ -7,5 +8,9 @@ $(document).ready(function() {
         }, 600);
     });
     
-    
+    $('td').hover(function() {
+        $('.description', this).show();
+    }, function() {
+        $('.description', this).hide();
+    });
 });

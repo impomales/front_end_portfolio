@@ -75,6 +75,9 @@ table img {
   clear: right;
   padding-top: 50px; }
 
+#projects p {
+  display: none; }
+
 #skillTable {
   text-align: center; }
 

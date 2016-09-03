@@ -60,6 +60,9 @@ table img {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover; }
+  #home h1 {
+    font-family: serif;
+    font-size: 50px; }
 
 #about h1 {
   text-align: center;

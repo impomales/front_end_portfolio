@@ -13,34 +13,36 @@
         <div class='container'>
             <nav id='navBar' class='navbar navbar-default navbar-fixed-top'>
                 <div class='container-fluid'>
-                    <div class='navbar-header'>
-                        <a class='navbar-brand jump' href='#home'>
-                            <img id='logo' src='assets/images/logo.png' alt='logo'>
-                        </a>
+                    <div class='row'>
+                        <div class='col-xs-2'>
+                            <a class='navbar-brand jump' href='#home' style='top: 0px'>
+                                <img id='logo' src='assets/images/logo.png' alt='logo'>
+                            </a>
+                        </div>
+                        <div class='col-xs-2'></div>
+                        <div class='col-xs-2'><a href='#home' class='jump'>Home</a></div>
+                        <div class='col-xs-2'><a href='#about' class='jump'>About</a></div>
+                        <div class='col-xs-2'><a href='#projects' class='jump'>Projects</a></div>
+                        <div class='col-xs-2'><a href='#contact' class='jump'>Contact</a></div>
                     </div>
-                    
-                    <ul class='nav navbar-nav'>
-                        <li><a href='#home' class='jump'>Home</a></li>
-                        <li><a href='#about' class='jump'>About</a></li>
-                        <li><a href='#projects' class='jump'>Projects</a></li>
-                        <li><a href='#contact' class='jump'>Contact</a></li>
-                    </ul>
                 </div>
             </nav>
             <div id='home'>
                 <div class='panel'>
                     <h1>Isaias Pomales</h1>
-                    <h2>Front End Web Development Portfolio</h2>
+                    <h2>Web Developer Portfolio</h2>
                     <div class='center'>
-                        <ul class='nav nav-pills center'>
-                            <li><a href='assets/Impomales.pdf'>Resume</a></li>
-                            <li><a href='https://github.com/impomales'>Github</a></li>
-                            <li><a href='https://linkedin.com/in/impomales'>Linkedin</a></li>
-                        </ul>    
+                        <div class='container-fluid'>
+                            <div class='row'>
+                                <div class='col-xs-4'><a href='assets/Impomales.pdf'>Resume</a></div>
+                                <div class='col-xs-4'><a href='https://github.com/impomales'>Github</a></div>
+                                <div class='col-xs-4'><a href='https://linkedin.com/in/impomales'>Linkedin</a></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <a href='#projects' class='jump'>
+                <a href='#projects' class='jump' style='text-decoration: none'>
                     <div class='button'>
                         <h4>PROJECTS</h4>
                         <img id='downArrow' src='assets/images/down.png' alt='arrow'>
@@ -300,12 +302,13 @@
         </div>
         <nav id='footer' class='navbar navbar-default'>
             <div class='container-fluid'>
-                <ul class='nav navbar-nav'>
-                    <li><a href='#home' class='jump'>Home</a></li>
-                    <li><a href='#about' class='jump'>About</a></li>
-                    <li><a href='#projects' class='jump'>Projects</a></li>
-                    <li><a href='#contact' class='jump'>Contact</a></li>
-                </ul>
+                <div class='row'>
+                    <div class='col-xs-4'></div>
+                    <div class='col-xs-2'><a href='#home' class='jump'>Home</a></div>
+                    <div class='col-xs-2'><a href='#about' class='jump'>About</a></div>
+                    <div class='col-xs-2'><a href='#projects' class='jump'>Projects</a></div>
+                    <div class='col-xs-2'><a href='#contact' class='jump'>Contact</a></div>
+                </div>
             </div>
         </nav>
     </body>

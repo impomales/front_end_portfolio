@@ -1,10 +1,12 @@
 <?php
-ini_set('display_errors', 1); error_reporting(E_ALL);
+error_reporting(-1);
+ini_set('display_errors', 'On');
+set_error_handler("var_dump");
 
 if(isset($_POST['email'])) {
 
     $email_to = "impomales@gmail.com";
-    $email_subject = "Contact from portfolio";
+    $email_subject = "Contact_from_portfolio";
  
     function died($error) {
         // your error code can go here
@@ -78,13 +80,14 @@ if(isset($_POST['email'])) {
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);  
+mail($email_to, $email_subject, $email_message, $headers);  
 ?>
  
 <!-- include your own success html here -->
  
 Thank you for contacting me. I will be in touch with you very soon.
- 
+<br />
+<a href='index.html'>Back</a>
 <?php
  
 }

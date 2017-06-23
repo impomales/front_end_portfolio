@@ -1,5 +1,6 @@
 <?php
 error_reporting(-1);
+ini_set("SMTP", "aspmx.1.google.com");
 ini_set('display_errors', 'On');
 set_error_handler("var_dump");
 
